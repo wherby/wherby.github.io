@@ -15,6 +15,7 @@ If the application crash, the container will report to Hydra, Hydra will redeplo
 If the node fail, then the Akka Cluster will detect the node failure and then report the failure to Hydra, then Hydra will redeploy the apps on the node to other nodes.
 
 For more code see: [Hydra](https://github.com/wherby/Hydra)
+
 For test of Hydra see: [release 0.1.0](https://github.com/wherby/HydraRelease/tree/master/0.1.0)
 
 
