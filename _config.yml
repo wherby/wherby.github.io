@@ -17,7 +17,10 @@ title: Blog for wherby
 email: 187225577@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog for Hydra development.
-  For more infomation go to main page : https://wherby.github.io .
+
+  For more infomation go to main page : 
+
+  https://wherby.github.io 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
