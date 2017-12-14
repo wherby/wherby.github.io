@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Roadmap for Hydra 0.2"
 date:   2017-11-28 13:22:16 +0800
 categories: jekyll update

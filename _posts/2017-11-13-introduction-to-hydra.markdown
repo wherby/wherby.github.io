@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Using Akka Cluster to create HA container--- Introduction to Hydra"
 date:   2017-11-13 13:22:16 +0800
 categories: jekyll update
