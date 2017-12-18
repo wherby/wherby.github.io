@@ -4,6 +4,8 @@ comments: true
 title:  "Using Akka Cluster to create HA container--- Introduction to Hydra"
 date:   2017-11-13 13:22:16 +0800
 categories: jekyll update
+img: hydra.jpg # Add image post (optional)
+tags: [Holidays, Hawaii]
 ---
 Suppose there have a distributed application running on many nodes(VMs or hosts), and the application may crash on some nodes, or some nodes may fail silently. 
 

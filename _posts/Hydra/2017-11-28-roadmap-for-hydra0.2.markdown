@@ -4,6 +4,8 @@ comments: true
 title:  "Roadmap for Hydra 0.2"
 date:   2017-11-28 13:22:16 +0800
 categories: jekyll update
+img: road.jpg # Add image post (optional)
+tags: [Holidays, Hawaii]
 ---
 ToDo things for Hydry 0.2.0：
  1. replace UI project with akka-http

@@ -4,6 +4,8 @@ comments: true
 title:  "Pattern match: introduce to Scala"
 date:   2017-12-14 13:22:16 +0800
 categories: jekyll update
+img: pattern.jpg # Add image post (optional)
+tags: [Holidays, Hawaii]
 ---
 Suppose there is a web service return sum of two Int value.
 # In Python:
