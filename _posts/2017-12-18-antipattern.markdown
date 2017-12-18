@@ -5,7 +5,7 @@ title:  "Antipattern the secret in Cassandra"
 date:   2017-12-18 13:22:16 +0800
 categories: jekyll update
 img: anti.jpg # Add image post (optional)
-tags: [Holidays, Hawaii]
+tags: [scala, cassandra, antipattern]
 ---
 Cassandra uses the most important and "famous" antipattern design for update value. The update is as below[1]: 
 
