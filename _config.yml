@@ -14,8 +14,8 @@ author-img: tao.jpg # add your photo
 about-author: Software Engineer(Scala | Mesos | Akka | Cassandra | Kafka | C# |Spark ) # add description
 twitter: # add your Twitter handle
 facebook: # add your Facebook handle
-github: https://github.com/wherby  # add your Github handle
-linkedin: https://www.linkedin.com/in/tao-zhou-92102641/ # add your Linkedin handle
+github: wherby  # add your Github handle
+linkedin: tao-zhou-92102641/ # add your Linkedin handle
 email: 187225577@qq.com # add your Email address
 
 # Disqus
