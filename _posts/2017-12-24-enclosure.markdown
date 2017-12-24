@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Enclosure for Akka Props"
+title:  "Enclosure for Akka's Props"
 date:   2017-12-24 13:22:16 +0800
 categories: jekyll update
 img: enclosure.jpg # Add image post (optional)
@@ -97,7 +97,7 @@ def apply[T <: Actor: ClassTag](): Props = apply(defaultDeploy, implicitly[Class
 
 ```
 
-What’s the definition tells is that, the Props will add construction to same type. In another word, there will create some class declaration in the environment. Just as Python Case 2, the inner class will enclose the outer class. When the inner actor deployed in remote, not only the inner class will be serialized, but the outer class reference without conscious. For more detail, see: 
+What’s the definition tells is that, the Props will add construction for some type. In another word, there will create some class declaration in the environment. Just as Python Case 2, the outer class will be enclosued in the inner class. When the inner actor is deployed to remote, not only the inner class will be serialized, but the outer class reference without conscious. For more detail, see: 
 [https://www.cakesolutions.net/teamblogs/understanding-akkas-recommended-practice-for-actor-creation-in-scala](https://www.cakesolutions.net/teamblogs/understanding-akkas-recommended-practice-for-actor-creation-in-scala)
 
 Define a class in other class may be OK and as a syntax in other language like C#, Java. But if the code used in distributed environment, there may be more consideration for the syntax.
