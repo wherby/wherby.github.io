@@ -4,7 +4,7 @@ comments: true
 title:  "Hydra release 0.2.0"
 date:   2017-12-29 13:22:16 +0800
 categories: jekyll update
-img: hydra.jpg # Add image post (optional)
+img: hydra2.jpg # Add image post (optional)
 tags: [scala, akka, hydra, HA container, distribute]
 ---
 
