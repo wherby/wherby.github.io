@@ -12,14 +12,14 @@ tags: [scala, akka, hydra, HA container, distribute]
 
     1.  Hydra is an Akka Cluster based system which provides high available container service for applications.
 
-    2.  Hydra encapsulate Akka Cluster, with zero-configuration, the Hydra cluster system is setup
+    2.  Hydra encapsulates Akka Cluster, with zero-configuration, the Hydra cluster system is setup
 
-    3.  Hydra provide HA container based on heterogeneous platforms (both windows and linux)
+    3.  Hydra provides HA container based on heterogeneous platforms (both Windows and Linux)
 
 
 # Where can I get Hydra code?
 
-    Github : https://github.com/wherby/Hydra
+Github : [https://github.com/wherby/Hydra](https://github.com/wherby/Hydra)
 
 # Demo for Hydra:
 
@@ -43,7 +43,7 @@ Suppose there are two hosts [192.168.1.4, 192.168.1.25], one is windows and anot
     akka.cluster.seed-nodes=["akka.tcp://ClusterSystem@192.168.1.4:2551"]
 ```
 
-2.Then run “java -jar Hydra.jar” on each host to start Hydra cluster. You are already started the Hydra cluster as below:
+2.Then run “java -jar Hydra.jar” on each host to start Hydra cluster. Hydra cluster is already set as below:
 
 ![startHydra](/media/HydraRelease2/Start.jpg)
 
