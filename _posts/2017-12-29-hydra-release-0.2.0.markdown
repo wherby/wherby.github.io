@@ -16,9 +16,10 @@ tags: [scala, akka, hydra, HA container, distribute]
 
     3.  Hydra provide HA container based on heterogeneous platforms (both windows and linux)
 
+
 # Where can I get Hydra code?
 
-    Github : [https://github.com/wherby/Hydra](https://github.com/wherby/Hydra)
+    Github : https://github.com/wherby/Hydra
 
 # Demo for Hydra:
 
