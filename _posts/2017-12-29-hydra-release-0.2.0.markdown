@@ -45,7 +45,7 @@ Suppose there are two hosts [192.168.1.4, 192.168.1.25], one is windows and anot
 
 2.Then run “java -jar Hydra.jar” on each host to start Hydra cluster. You are already started the Hydra cluster as below:
 
-    ![startHydra](/media/HydraRelease2/start.jpg)
+![startHydra](/media/HydraRelease2/Start.jpg)
 
 3.Post 
 
