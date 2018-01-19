@@ -32,7 +32,7 @@ If the web application treats the web requests as tasks rather than threading jo
 “Talking is cheap, show me the code!” Is there any web server treats web request as task?
 See the following pic from [https://akka.io/blog/2016/07/06/threading-and-concurrency-in-akka-streams-explained](https://akka.io/blog/2016/07/06/threading-and-concurrency-in-akka-streams-explained)
 
-![thread in akka](/media/TaoOfWebservice/threadinginAkka.png)
+![thread in akka](/media/TaoOfWebservice/threadingInAkka.png)
 
 The Akka Http Streaming will treat the web request as tasks, for example, if ten different clients call the sum service written in Akka-Http, there will only one thread handle these requests. 
 
