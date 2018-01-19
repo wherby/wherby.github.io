@@ -36,7 +36,7 @@ See the following pic from [https://akka.io/blog/2016/07/06/threading-and-concur
 
 The Akka Http Streaming will treat the web request as tasks, for example, if ten different clients call the sum service written in Akka-Http, there will only one thread handle these requests. 
 
-Therefor using streamed web service [Flow package in Java and Akka-Http] will makes your web server’s thread context switch 10 times faster.
+Therefore using streamed web service [Flow package in Java and Akka-Http] will makes your web server’s thread context switch 10 times faster.
 
 # How to make 100 times faster? 
 
