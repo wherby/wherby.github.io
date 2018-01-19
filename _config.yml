@@ -1,8 +1,10 @@
 title: Welcome to wherby's blog!
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Our God in heaven, May your name be preached, 
+  May your kingdom come, may your directives run natively, as in the clouds.
+  May you give us inspiration for development, forgive us for procrastination, and forbid architecture to fall into rebuilding.
+  But save the program from bug, because everything: Responsive, Resilient, Message Driven, Elastic 
+   ... all belong to you forever! Amen
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
