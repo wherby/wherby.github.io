@@ -9,8 +9,10 @@ tags: [tao, cassandra,  streaming, database, timetravel]
 ---
 
 Let’s begin with some existed databases:
+
 ## X-DB
-The X-DB in TaoBao in Alibaba, the following is from TaoBao’s blog, which could handle 325K OPS (Operations Per Second) [ http://jm.taobao.org/2017/12/27/20172701/](http://jm.taobao.org/2017/12/27/20172701/):
+
+The X-DB is TaoBao's database in Alibaba, the following is from TaoBao’s blog, which could handle 325K OPS (Operations Per Second) [ http://jm.taobao.org/2017/12/27/20172701/](http://jm.taobao.org/2017/12/27/20172701/):
 
 ![Tao bao](/media/TaoOfDatabase/Taobao.png)
 
@@ -18,7 +20,7 @@ X-DB is a SQL database in the biggest e-commerce company in china, so the cluste
 
 ## Cassandra
 
-Netflix has a benchmark of Cassandra [https://medium.com/netflix-techblog/benchmarking-cassandra-scalability-on-aws-over-a-million-writes-per-second-39f45f066c9e](https://medium.com/netflix-techblog/benchmarking-cassandra-scalability-on-aws-over-a-million-writes-per-second-39f45f066c9e):
+Netflix has a benchmark of Cassandra [Cassandra benchmark](https://medium.com/netflix-techblog/benchmarking-cassandra-scalability-on-aws-over-a-million-writes-per-second-39f45f066c9e):
 
 ![Cassandra](/media/TaoOfDatabase/Netflix.png)
 
@@ -27,7 +29,7 @@ To achieve the same IOPS, only need around 40 m1.xlarge EC2 instance. Which is m
 ## Scylla
 
 
-So can it be more quick? Use Scylla, see the benchmark of the new database which rewrite Cassandra [http://www.scylladb.com/product/benchmarks/](http://www.scylladb.com/product/benchmarks/)
+So can it be more quick? Use Scylla, see the benchmark of the new database which rewrite Cassandra [Syclla VS Cassandra](http://www.scylladb.com/product/benchmarks/)
 
 ![Scylla](/media/TaoOfDatabase/scylla.png)
 
@@ -42,7 +44,7 @@ The following architecture is from [Evan Chan](https://www.linkedin.com/in/evanf
 
 ![Filo1](/media/TaoOfDatabase/Filo1.png)
 
-The benchmark as below [https://www.slideshare.net/EvanChan2/2017-high-performance-database-with-scala-akka-spark](https://www.slideshare.net/EvanChan2/2017-high-performance-database-with-scala-akka-spark):
+The benchmark as below [2017-high-performance-database-with-scala-akka-spark](https://www.slideshare.net/EvanChan2/2017-high-performance-database-with-scala-akka-spark):
 
 ![Filo2](/media/TaoOfDatabase/Filo2.png)
 
@@ -52,7 +54,7 @@ That FiloDB will achieve **billion level OPS** with **“single thread”**!!
 
 1.  To achieve high OPS, use No-SQL
 
-2.  Using stream to powerup No-SQL will achieve no-limited performance [Similar idea in the tao of web service [https://wherby.github.io/the-tao-in-web-service/](https://wherby.github.io/the-tao-in-web-service/)]
+2.  Using stream to powerup No-SQL will achieve no-limited performance [Similar idea in the tao of web service [the-tao-in-web-service/](https://wherby.github.io/the-tao-in-web-service/)]
 
 # Tao in database [To be continue…]
 
