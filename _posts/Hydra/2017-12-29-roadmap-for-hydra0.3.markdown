@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Roadmap for Hydra 0.3.0"
-date:   2017-12-29 13:22:16 +0800
+date:   2017-12-29 15:22:16 +0800
 categories: jekyll update
 img: roadmap030.jpg # Add image post (optional)
 tags: [scala, akka, hydra, roadmap, distributed data, serverless]

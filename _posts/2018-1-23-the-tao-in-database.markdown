@@ -54,7 +54,7 @@ That FiloDB will achieve **billion level OPS** with **“single thread”**!!
 
 1.  To achieve high OPS, use No-SQL
 
-2.  Using stream to powerup No-SQL will achieve no-limited performance [Similar idea in the tao of web service [the-tao-in-web-service/](https://wherby.github.io/the-tao-in-web-service/)]
+2.  Using stream to powerup No-SQL will achieve no-limited performance [Similar idea in [the-tao-in-web-service/](https://wherby.github.io/the-tao-in-web-service/)]
 
 # Tao in database [To be continue…]
 
