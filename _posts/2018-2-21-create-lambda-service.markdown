@@ -12,11 +12,11 @@ As we know, Amazon provides Lambda service on AWS, how can we create the Lambda 
 
 ### Let’s start with Hydra 0.2.1 new feature “External Actor Loader”:
 
-External Actor Loader is a loader which will load actor in dynamic way to Hydra. The loader will load the actor definition from jar file which is provided by user. The Actor will be placed under "/user/externalLoader" path of actor system. and the actor uses a separated dispatcher("external-dispatcher").
+External Actor Loader is a loader which will load actor to Hydra in dynamic way. The loader will load the actor defined in jar file which is provided by user. The Actor will be placed under "/user/externalLoader" path of actor system. and the actor uses a separated dispatcher("external-dispatcher").
 
 ### What’s the relationship of External Actor Loader and Lambda service?
 
-The answer is a little tricky, the Actor to be loaded is the lambda service. Actor is event driven model as Lambda service, so when you implement the same logic as in the Lambda service when the Actor will “act as” the lambda service. Meanwhile the Hydra is based on Akka Cluster which will provide native event bus for the actors. Alpakka(https://github.com/akka/alpakka) will provide various ways of Akka stream connectors. 
+The answer is a little tricky, the actor to be loaded is the service in lambda service. Actor is event driven model which is same as Lambda service, so when you implement the same logic as in the Lambda service when the Actor will “act as” the lambda service. Meanwhile the Hydra is based on Akka Cluster which will provide native event bus for the actors. Alpakka(https://github.com/akka/alpakka) will provide various ways of Akka stream connectors. 
 
 ### Let’s have a quick guide of External Actor Loader:
 
