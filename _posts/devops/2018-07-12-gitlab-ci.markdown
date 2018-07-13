@@ -1,0 +1,61 @@
+---
+layout: post
+comments: true
+title:  "Gitlab CI/CD"
+date:   2018-07-12 13:22:16 +0800
+categories: jekyll update
+img: tobeused.jpg # Add image post (optional)
+tags: [gitlab,ci]
+---
+
+Let's start use gitlab ci/cd in following steps:
+
+First version is based on a simple hello world python project 
+[test-python](https://gitlab.com/wherby/test-python):
+
+    webapp folder is the application
+    test.py is the unit test for application
+    deploy.sh is the deploy script 
+    .gitlab-ci.yml is the gitlab ci/cd control file
+
+
+When new checkin is pushed to gitlab, there will trigger the unit test for application and then deploy to environment (some vm in digtalocean).
+Then you will see the pipelines via:
+
+[pipelines result](https://gitlab.com/wherby/test-python/pipelines)
+
+Apparently this solution is not well structed.
+
+Let's separate the develop code from application code into two projects:
+
+[python-app](https://gitlab.com/wherby/python-app)
+
+[python-ci](https://gitlab.com/wherby/python-ci)
+
+python-app is the project with application and simple unit test:
+
+[piplines result for python-app](https://gitlab.com/wherby/python-app/pipelines)
+
+python-ci is the project which will deploy the application to environment:
+
+[piplines result for python-ci](https://gitlab.com/wherby/python-ci/pipelines)
+
+The environment for application will be visited via:
+
+[link for application](http://178.62.207.178:5000/new/aaaa)
+
+Tips:
+
+When you need to trigger one project by another project, you need to add pipeline trigger by [settings]->[CI/CD] and click [Add trigger] under [pipeline trigger], then you will get trigger token:
+![pipeline trigger](/media/gitlab/pipelinetoken.png)
+
+
+When you trigger from another project, you will write some code like
+
+```
+ - curl --request POST --form "token=$CI_TOKEN" --form ref=master https://gitlab.com/api/v4/projects/7458040/trigger/pipeline
+```
+
+the project id "7458040" will be get via [settings]->[general] and expand [Project general] tab:
+
+![project id](/media/gitlab/projectid.png)
