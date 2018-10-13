@@ -34,8 +34,14 @@ Scala ecosystem could provide fast data processing toolkit.
 
 ## What’s monad?
 
+```
+A monad is just a monoid in the category of endofunctors, what's the problem?
 
- 
+一个单子（Monad）说白了不过就是自函子范畴上的一个幺半群而已，有什么难以理解的。
+
+            --from <<Categories for the Working Mathematician>>
+```
+
  ![monad](/media/monad/monad.png) 
 
 [monad ]( https://www.jianshu.com/p/31377066bf97)
@@ -89,7 +95,7 @@ def addInt(requst:String):Option[Int]={
 ```
 
 The Option factor combines the two results:
-1.  If in good way, there will return Some(Int)
+1.  If in good way, there will return Some[Int]
 2.  If in bad way, there will return None
 
 So there will have only one result type, then the system will have limited status. But, wait, the Some and None are still different types. Well, see the code as below:
@@ -104,6 +110,12 @@ The Option factor will combine Some[T] and None to Option[T] which could be used
 [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
  
 ![monadway](/media/monad/monadway.png) 
+
+## What're the monadic factors?
+
+
+Option,Either, Future,Seq,and etc.
+
  
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
