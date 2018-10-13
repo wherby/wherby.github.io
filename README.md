@@ -11,7 +11,33 @@
 
 ## Installation:
 
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
+http://baixin.io/2016/10/jekyll_tutorials1/
+
+安装 jekyll
+
+```
+$ gem install jekyll
+```
+创建博客
+
+```
+$ jekyll new myBlog
+```
+
+进入博客目录
+
+```
+$ cd myBlog
+```
+
+启动本地服务
+
+```
+$ jekyll serve
+```
+
+在浏览器里输入： http://localhost:4000，就可以看到你的博客效果了。
+
 
 ### License
 
