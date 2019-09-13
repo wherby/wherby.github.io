@@ -127,3 +127,8 @@ The Gig consumer will consume 1000000 message per second. If you want more throu
 
 
 Github of Gig: [gig](https://github.com/wherby/gig)
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
