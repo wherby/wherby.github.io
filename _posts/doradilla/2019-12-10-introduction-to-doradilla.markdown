@@ -37,7 +37,7 @@ The Doradilla library use a queue to keep job requests and FSMActor will pull jo
 
 #### Is the same way as traditional way?
 
-Yes, but not, because the user will not aware of the library implementation. The example shows user only call the job api, the Doradilla library will handle the travail work.
+Yes, but not, because the user will not aware of the library implementation. The example shows user only call the job api, the Doradilla library will handle the trival work.
 
 ## Why there is need JobTranslator?
 
