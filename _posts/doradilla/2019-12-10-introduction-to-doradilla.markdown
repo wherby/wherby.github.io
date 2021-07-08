@@ -10,20 +10,20 @@ tags: [scala, akka, doradilla, job manage, akka cluster]
 
 # What’s Doradilla
 
-Doradilla is a job manage library which provide reactive way to handle job request.
+Doradilla is a job manage library which provides reactive way to handle job request.
 
 
 # Doradilla introduction
 
 ## What's the problem the library resolve?
 
-The library provide a reactive way to handle resource consuming(CPU, Memory, DB connection) tasks.
+The library provides a reactive way to handle resource consuming(CPU, Memory, DB connection) tasks.
 
-For example, an OCR application which will trigger OCR tasks based on requests, for each OCR task there needs one CPU core occupied. If there is no implementation of job management, the CPUs will be easily taken by OCR jobs. The CPU competition will easily slow down the processing and block other function.
+For example, an OCR application which will trigger OCR tasks based on requests, for each OCR task there needs one CPU core occupied. If there is no implementation of job management, the CPUs will be easily taken by OCR jobs. The CPU competition will easily slow down the processing and block other functions.
 
 #### What's the traditional way to solve the issue?
 
-create a job queue, and use a worker to takes job from the queue.
+create a job queue, and use workers to take job from the queue.
 
 #### Is there any universal way to resolve this type of question and makes the implementation easy to use?
 
@@ -41,7 +41,7 @@ Yes, but not, because the user will not aware of the library implementation. The
 
 ## Why there is need JobTranslator?
 
-For general purpose, ever complex job could be translate to simple job and so on. When you handle the complex job, you could design your JobTranslator to handle that job.
+For general purpose, every complex job could be translate to simple jobs and so on. When you handle the complex job, you could design your JobTranslator to handle that job.
 
 ## What's if I aready have ActorSystem in my project?
 
